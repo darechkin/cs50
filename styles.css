@@ -1,18 +1,11 @@
 body {
-    margin: 0px;
+    margin: 350px;
     height: 100vh;
     font-family: Arial, sans-serif;
+    text-align: center;
   }
-body:link {
-    color: red;
-}
-input {
-    font-size: 16px;
-    width: 300px;
-    padding: 13px 0;
-}
 input:hover {
-    color: green;
+    color: black;
 }
 input:link {
     color: black;
@@ -20,4 +13,12 @@ input:link {
 input:visited {
     color: red;
 }
+input[type=text] {
+    height: 30px;
+    width: 542px;
+    font-size: 16px;
+    border-radius: 24px;
+    box-shadow: 0px;
+}
+
 
